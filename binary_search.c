@@ -24,6 +24,7 @@ int main()
 	int low=0;
 	int high=n-1;
 	int flag=0;
+	int mid;
 	while(low<high)
 	{
 		mid=(low+high)/2;
@@ -32,7 +33,7 @@ int main()
 			flag=1;
 			break;
 		}
-		else if(key<a[mid])
+		else if(x<a[mid])
 			high=mid-1;
 		else
 			low=mid+1;
@@ -41,4 +42,5 @@ int main()
 		printf("Key is found at %d",mid+1);
 	else
 		printf("Not found");
+	return 0;
 }
