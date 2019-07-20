@@ -1,6 +1,9 @@
 #include <stdio.h>
 #define multiply(a,b) a*b
-#define concat(a,b) a##b
+#define concat(a,b) a##b 
+#ifndef p
+#define p 10
+#endif
 #define coutmine(n)\
 	int i=0;\
 	while(i<n)\
@@ -16,5 +19,6 @@ int main(void){
 	a=10;
 	printf("%p",&a);
 	coutmine(5);
+	printf("%d",p);
 	return 0;
 }
