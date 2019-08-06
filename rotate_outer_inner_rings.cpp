@@ -1,5 +1,5 @@
 #include <iostream>
-#define n 3
+#define n 5
 using namespace std;
 void leftrotate(int b[99],int k){
 	for(int i=0;i<1;i++){
