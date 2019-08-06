@@ -70,7 +70,7 @@ void rings(int arr[][n],int right,int bottom){
 		/*for(int i=0;i<count;i++){
 			cout<<b[i]<<" ";
 		}*/
-		juggle(b,6,count);
+		juggle(b,count/2,count);
 		
 	}
 }
