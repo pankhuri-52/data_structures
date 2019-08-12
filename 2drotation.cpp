@@ -1,6 +1,6 @@
 #include <iostream>
 #define ROTATIONS 1
-#define M 5
+#define M 4
 #define N 5
 using namespace std;
 void rotate(int row,int column,int arr[M][N]){
@@ -45,8 +45,7 @@ int main(void){
 	int arr[M][N]={{1,2,3,4,5},
 		       {6,7,8,9,10},
 		       {11,12,13,14,15},
-		       {16,17,18,19,20},
-		       {21,22,23,24,25}
+		       {16,17,18,19,20}
 	};
 	for(int i=0;i<ROTATIONS;i++)
 		rotate(0,0,arr);
