@@ -22,7 +22,7 @@ int main(){
 		printf("Array is already sorted");
 	}
 	else{
-		printf("Either right rotation of %d or left rotation of %d is applied",a+1,n-(a+1));
+		printf("Either left rotation of %d or right rotation of %d is applied",a+1,n-(a+1));
 	}
 	return 0;
 }
